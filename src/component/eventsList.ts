@@ -3,7 +3,7 @@ const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 const tomorrow = new Date(today);
 tomorrow.setDate(today.getDate() + 1);
 
-const myEvents = [
+export const myEvents = [
   {
     id: 1,
     title: "Meeting with Team",
